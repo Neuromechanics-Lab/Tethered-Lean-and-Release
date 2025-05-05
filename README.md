@@ -170,6 +170,9 @@ This tool is designed to:
   4. Added the LiveAmp prop type and prop name as the default settings.
   5. Fixed the issue that switching the Raw Data display option dropdown menu will crash the App.
   6. Fixed some comments in the code.
+* 0.75:
+  1.  Fixed the non-empty marker detection "if" statement so that the marker press is correctly detected and displayed.
+  2. Tested the sensor and marker function via the "AudioCapture.exe" and "Keyboard.exe".
 
 ## Operating Instructions
 

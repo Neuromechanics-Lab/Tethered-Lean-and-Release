@@ -3,12 +3,68 @@ The MALAB scripts and Apps for testing the LSL and visualizing the force sensor 
 
 For more information about the design and testing of this system, please check the OneNote design notes/logs here: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Design_notes_operating_instructions_version_history.pdf
 
-# MATLAB App
+# Download & Installation Guide
+
+## Overview
+
+This guide provides instructions for downloading, installing, and launching the **Tethered_Lean_Release_Feedback** MATLAB App using files from the **Installation Packages** directory in this repository. The directory includes the packaged `.mlappinstall` files where as the repository root folder includes the `.mlapp` source file.
+
+## 1. Prerequisites
+
+- MATLAB R2022a or newer is **required**.
+- Ensure the **App Designer** is available in your MATLAB installation (it comes standard with most MATLAB licenses).
+- **LSL Lab Streaming Layer** MATLAB interface (e.g., via `liblsl-Matlab`) is required, please follow the instructions on https://github.com/labstreaminglayer/liblsl-Matlab.
+- Download the repository as a `.zip` file or clone the repository locally.
+
+## 2. Access the Installation Packages
+
+This repository includes:
+- `Tethered_Lean_Release_Feedback.mlappinstall` — Packaged app installer, in the "Installation Packages" folder (https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/tree/main/Installation%20Packages). The installation packages in this repository is the packaged apps that can run directly but do not offer editing options. If you want a stable version of the app that has been tested and functions properly, choose this option.
+- `Tethered_Lean_Release_Feedback.mlapp` — App Designer source file, in the root folder. If you want to add functionalities, fix bugs, or edit code in general, choose this option. 
+
+## 3. Option A: Install Using `.mlappinstall` (Recommended)
+
+The `.mlappinstall` file is a packaged app that can be installed directly via MATLAB’s App Designer interface.
+
+### Steps:
+
+1. Open MATLAB.
+2. In the **Home** tab, click on **APPS** → **Install App** (top-right corner). ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/Install_App.png)
+3. Browse and select the appropriate `Tethered_Lean_Release_Feedback.mlappinstall` file. ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/navigate_to_installation_packages.png)
+4. Click **Open**.
+5. A pop-up window will show to ask you whether to install the App. click **Install**. ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/prompt_to_install.png)
+6. MATLAB will install the app. It will now appear under the **My Apps** section in the **APPS** tab. The detailed **Version** and **Description** will show if you hover your mouse on the app icon. ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/installed_app_info.png)
+7. The installation is complete. You may now use the app by clicking the app icon under the **APPS** tab. 
+
+
+## 4. Option B: Open or Edit Using `.mlapp` (Developer Access)
+
+If you wish to modify or inspect the source code:
+
+### Steps:
+
+1. Open MATLAB.
+2. Navigate to the directory containing the `.mlapp` file.
+3. Double-click on `Tethered_Lean_Release_Feedback.mlapp`, or open it via:
+   ```matlab
+   >> open('Tethered_Lean_Release_Feedback.mlapp')
+
+## 5. Package an Installation Package with the Source Code
+
+If you have just implemented and tested some functionalities of the MATLAB App and are ready to package it to a new installation package.
+
+### Steps:
+1. In the **App Designer** Window, click **Share** under the **Designer** tab. ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/share_package_app.png)
+2. Click **MATLAB App**.
+3. A pop-up window will prompt you to input the description, version, and output folder of your package. Fill in the corresponding fields (please use a unique Version each time), specify the output folder, and click **Package**. ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/share_package_info.png)
+4. Once the packaging is complete, you can install the app via the generated `.mlappinstall` file.
+
+# MATLAB App Overview
 ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/MATLAB_App_GUI_2.png)
 ## Purpose
 
 This tool is designed to:
-- Display and plot tether tension, estimated lean torque, and estimated lean angle in real-time.
+- Display and plot tether tension, percent body weight, estimated lean torque, and estimated lean angle in real-time.
 - Provide researchers with a clear indication of whether a test subject has leaned sufficiently and is ready to be released.
 
 ## Functionalities
@@ -118,17 +174,18 @@ This tool is designed to:
 
 #### a. Setup the Test Subject
 
-1. Place the necessary sensors.
-2. Connect LiveAmp to BrainVision Recorder.
-3. Put the harness on the subject.
-4. Provide experiment instructions.
-5. Record subject's height (cm).
-6. Record subject's weight (kg).
-7. Note subject's sex.
+1. Place the necessary sensors. The essential sensors for a lean-and-release experiment usually include EEG, accelerometer, and the Trigger Button. Depending on whether we want to know the lean magnitude indicated by the percent body weight of the test subject, we need the force sensor. 
+2. Connect LiveAmp to BrainVision Recorder. Check if the BrainVision Recorder detects all EEG channels, the AUX channels, and the TriggerBox markers.
+3. Disconnect the BrainVision Recorder.
+4. Put the harness on the subject.
+5. Provide experiment instructions.
+6. Record subject's height (cm).
+7. Record subject's weight (kg).
+8. Note subject's sex.
 
 #### b. Setup the Tethered-Release System
 
-1. Adjust the metal plate height to ~3 cm lower than the metal clip height on the harness when standing straight. Record height (cm).
+1. Adjust the metal plate height to ~3 cm lower than the metal clip height on the harness when the test subject is standing straight (as the metal clip will be slightly lower when the test subject is leaning forward). Record height (cm).
 2. Clip the tether to the bow release and harness.
 3. Ask subject to walk forward along red tape until tether is taut.
 4. Instruct subject to lean back 1–2 steps, per protocol.

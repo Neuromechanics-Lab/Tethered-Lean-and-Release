@@ -1,0 +1,126 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3058481689" file="C:\Users\yifei\OneDrive\Academic OneDrive\Courses Grad\Robotics Fundamental Courses\BME 8741 Robotics Capstone Project\LSL_MATLAB_Scripts\Tethered_Lean_Release_Feedback_074.prj" location="C:\Users\yifei\OneDrive\Academic OneDrive\Courses Grad\Robotics Fundamental Courses\BME 8741 Robotics Capstone Project\LSL_MATLAB_Scripts" name="Tethered_Lean_Release_Feedback_074" target="target.mlapps" target-name="Package App">
+    <param.appname>Tethered_Lean_Release_Feedback_074</param.appname>
+    <param.authnamewatermark>Yifei Du</param.authnamewatermark>
+    <param.email>ydu363@gatech.edu</param.email>
+    <param.company>Georgia Institute of Technology</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Updated version on 04/30</param.summary>
+    <param.description>1. fixed the ylimits and yticks for % Body Weights. 
+2. fixed the scale and sign of the % body weiths.
+3. fixed the sign of the other modes of the raw data displays.</param.description>
+    <param.screenshot>C:\Users\yifei\AppData\Local\Temp\tpa0684eb6_a69a_425d_9eb7_c5b2ecbe903c.png</param.screenshot>
+    <param.version>0.72</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+    </param.platforms>
+    <param.output>Z:\ting\shared_ting\Yifei\Tethered Mechanism MATLAB App Installation Packages</param.output>
+    <param.guid>4b32e311-98c1-45bc-a6d3-3f9c642f6d88</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Tethered_Lean_Release_Feedback.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_append_child.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_append_child_value.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_append_copy.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_child.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_child_value.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_child_value_n.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_close_stream.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_create_inlet.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_create_streaminfo.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_destroy_inlet.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_destroy_streaminfo.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_empty.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_first_child.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_freelib_.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_channel_count.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_channel_format.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_created_at.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_desc.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_fullinfo.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_name.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_nominal_srate.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_session_id.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_source_id.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_type.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_uid.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_version.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_get_xml.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_is_text.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_last_child.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_loadlib_.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_name.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_next_sibling.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_next_sibling_n.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_open_stream.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_parent.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_prepend_child.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_prepend_copy.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_previous_sibling.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_previous_sibling_n.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_pull_chunk_d.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_pull_sample_buf.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_pull_sample_d.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_pull_sample_str.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_remove_child.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_remove_child_n.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_resolve_byprop_.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_set_child_value.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_set_name.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_set_postprocessing.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_set_value.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_time_correction.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\bin\lsl_value.mexw64</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\lsl_get_dll.m</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\lsl_inlet.m</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\lsl_loadlib.m</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\lsl_resolve_byprop.m</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\lsl_streaminfo.m</file>
+      <file>C:\Windows\System32\labstreaminglayer\LSL\liblsl-Matlab\lsl_xml_ptr.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="Z:\ting\shared_ting\Yifei" name="Tethered Mechanism MATLAB App Installation Packages" optional="false">Z:\ting\shared_ting\Yifei\Tethered Mechanism MATLAB App Installation Packages</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

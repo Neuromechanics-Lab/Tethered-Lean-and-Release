@@ -1,6 +1,8 @@
 # Tethered Lean-and-Release System
 The MALAB scripts and Apps for testing the LSL and visualizing the force sensor plus accelerometer data and trigger markers of the tethered lean-and-release system.
 
+For more information about the design and testing of this system, please check the OneNote design notes/logs here: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Design_notes_operating_instructions_version_history.pdf
+
 # MATLAB App
 ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/MATLAB_App_GUI_2.png)
 ## Purpose

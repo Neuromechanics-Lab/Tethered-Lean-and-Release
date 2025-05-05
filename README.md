@@ -204,7 +204,7 @@ This tool is designed to:
 - ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/sample_plot_force_sensor_release_button.png)
 - Select proper channel:
   - EEG: 1–32 or 1–64
-  - AUX: 33–40 or 65–72
+  - AUX: 33–40 or 65–72 (AUX1 -> AUX8)
   - ACC: 41–43 or 73–75 (x, y, z)
 - Validation:
   - Pull tether → sensor force changes.

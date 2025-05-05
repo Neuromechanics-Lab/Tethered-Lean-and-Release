@@ -1,24 +1,23 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3058481689" file="C:\Users\yifei\OneDrive\Academic OneDrive\Courses Grad\Robotics Fundamental Courses\BME 8741 Robotics Capstone Project\LSL_MATLAB_Scripts\Tethered_Lean_Release_Feedback_074.prj" location="C:\Users\yifei\OneDrive\Academic OneDrive\Courses Grad\Robotics Fundamental Courses\BME 8741 Robotics Capstone Project\LSL_MATLAB_Scripts" name="Tethered_Lean_Release_Feedback_074" target="target.mlapps" target-name="Package App">
-    <param.appname>Tethered_Lean_Release_Feedback_074</param.appname>
+  <configuration build-checksum="1045561209" file="E:\Lean_and_Release\Tethered-Lean-and-Release\Tethered_Lean_Release_Feedback.prj" location="E:\Lean_and_Release\Tethered-Lean-and-Release" name="Tethered_Lean_Release_Feedback" target="target.mlapps" target-name="Package App">
+    <param.appname>Tethered_Lean_Release_Feedback</param.appname>
     <param.authnamewatermark>Yifei Du</param.authnamewatermark>
     <param.email>ydu363@gatech.edu</param.email>
     <param.company>Georgia Institute of Technology</param.company>
     <param.icon />
     <param.icons />
-    <param.summary>Updated version on 04/30</param.summary>
-    <param.description>1. fixed the ylimits and yticks for % Body Weights. 
-2. fixed the scale and sign of the % body weiths.
-3. fixed the sign of the other modes of the raw data displays.</param.description>
-    <param.screenshot>C:\Users\yifei\AppData\Local\Temp\tpa0684eb6_a69a_425d_9eb7_c5b2ecbe903c.png</param.screenshot>
-    <param.version>0.72</param.version>
+    <param.summary>Updated version on 05/05</param.summary>
+    <param.description>1.  Fixed the non-empty marker detection "if" statement so that the marker press is correctly detected and displayed.
+2. Tested the sensor and marker function via the "AudioCapture.exe" and "Keyboard.exe".</param.description>
+    <param.screenshot>C:\Users\yifei\AppData\Local\Temp\tp238e8007_ad63_423f_b71a_4eb2b89bcb05.png</param.screenshot>
+    <param.version>0.75</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms>
       <item>win64</item>
     </param.platforms>
-    <param.output>Z:\ting\shared_ting\Yifei\Tethered Mechanism MATLAB App Installation Packages</param.output>
+    <param.output>${PROJECT_ROOT}\Installation Packages</param.output>
     <param.guid>4b32e311-98c1-45bc-a6d3-3f9c642f6d88</param.guid>
     <unset>
       <param.icon />
@@ -93,7 +92,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="Z:\ting\shared_ting\Yifei" name="Tethered Mechanism MATLAB App Installation Packages" optional="false">Z:\ting\shared_ting\Yifei\Tethered Mechanism MATLAB App Installation Packages</file>
+      <file location="${PROJECT_ROOT}" name="Installation Packages" optional="false">E:\Lean_and_Release\Tethered-Lean-and-Release\Installation Packages</file>
     </build-deliverables>
     <workflow />
     <matlab>

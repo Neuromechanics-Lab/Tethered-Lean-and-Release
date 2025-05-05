@@ -150,7 +150,8 @@ This tool is designed to:
 
 #### e. Configure Stream Controls
 
-1. Switch off Marker if not using a marker stream.
+1. Switch off Marker if not using a marker stream. If No marker is detected, the marker switch will automatically turn off.
+
 2. Click **Initiate** to search for streams using specified props.
 3. View log output to verify stream connection.
 4. Click **Start** to begin streaming and plotting.

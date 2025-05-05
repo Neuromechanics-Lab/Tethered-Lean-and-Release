@@ -156,10 +156,12 @@ This tool is designed to:
   4. Added calibration function.
 
 * 0.70:
-	1. Added percent weight display
+  1. Added percent weight display
   2. Trouble shoot
     a. Cannot start stream, error message "vertcat(app.TT_all; TT_new);"
     b. Dimensions of arrays being concatenated are not consistent.
+  3. Now that the log displays the detailed sensor stream and marker stream info the App subscribed to, if applicable.
+
 
 * 0.74:
   1. Fixed the ylimits and yticks for % Body Weights display plot.
@@ -167,6 +169,7 @@ This tool is designed to:
   3. Fixed the sign of the other modes of the Raw Data display plot.
   4. Added the LiveAmp prop type and prop name as the default settings.
   5. Fixed the issue that switching the Raw Data display option dropdown menu will crash the App.
+  6. Fixed some comments in the code.
 
 ## Operating Instructions
 
@@ -197,8 +200,8 @@ This tool is designed to:
 3. Click **Scan**. Confirm the LiveAmp device via Device Number.
 4. Set **AUX Channels** to 8 (for STE box).
 5. Enable ACC sensors.
-6. Keep Chunk Size and Sampling Rate as default.
-7. Under LSL Trigger Output Style, check **EEG Channel** (for later analysis).
+6. Keep **Chunk Size** and **Sampling Rate** as default (Chunk Size 10, Sampling Rate 500 Hz).
+7. Under LSL Trigger Output Style, check **EEG Channel** (so that the trigger markers can also be de-jittered like the EEG and AUX channels for later analysis, but note that this will result in 1 or more additional channel(s) in the EEG stream, the numbering scheme of this configuration is not yet tested).
 8. Click **Link**. The button changes to **Unlink** upon success.
 
 #### d. Setup the Lab Recorder

@@ -219,9 +219,9 @@ Return to Lab Recorder and click **Start**.
 
 #### h. Indicator Lights
 ![Alt text](https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/Figures/code_indicator_light.png)
-- **Red**: Lean angle too large.
-- **White**: Lean angle too small.
-- **Green**: Target angle reached — ready to release.
+- **Red**: The lean angle is too large.
+- **White**: The lean angle is too small.
+- **Green**: The target angle is reached — ready to release.
 - Works with **Lean Torque** if selected.
 
 #### i. Calibration (Experimental)
@@ -244,6 +244,9 @@ Return to Lab Recorder and click **Start**.
 - Analyzing the Sampling\Timestamp Consistency and Delays: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/sampling_consistency_and_delay_analysis.mlx
 - Analyzing More Sampling Consistency: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/consistency_analysis_cont.mlx
 - Analyzing Analog-to-Digital Conversion of LiveAmp/ActiCHamp System: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/ADC_Conversion_analysis.mlx
+- Analyzing the Force Sensor Readouts to Percent Body Weight Conversion: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/voltage_to_force_analysis.mlx
+
 
 # Reports
 - Sampling\Timestamp Consistency and Delays: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/sampling_consistency_and_delay_analysis.pdf
+- Force Sensor Readouts to Percent Body Weight Conversion: https://github.com/Neuromechanics-Lab/Tethered-Lean-and-Release/blob/main/voltage_to_force_analysis.pdf
